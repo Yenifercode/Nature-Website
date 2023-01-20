@@ -1,0 +1,98 @@
+.park2 {
+    width: 600px;
+    clip-path: circle();
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+h1 {
+    color: chartreuse;
+    font-size: 90px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: chocolate;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: chartreuse;
+    text-align: center;
+    padding: 20px 90px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color:rgb(248, 245, 240);
+}
+
+body {
+    background-color: chocolate;
+}
+
+.card {
+    color: chartreuse;
+    text: center;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: chartreuse;
+    clip-path: circle();
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 400px;
+    width: 600px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  p {
+    color: chartreuse;
+  }
+  
+ 
+ 

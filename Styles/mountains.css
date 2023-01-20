@@ -1,0 +1,131 @@
+.mountain2 {
+    width: 500px;
+    clip-path: circle();
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: antiquewhite;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    text-align: center;
+    padding: 20px 90px;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color:rgb(248, 245, 240);
+}
+
+h1 {
+    color: grey;
+}
+
+body {
+    background-color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+
+.card{
+    margin: 3px 9px 9px 3px;
+    padding: 0.1rem;
+    border-radius: 1rem;
+    width: 45vw;
+    min-height: 100px;
+    display: inline-flex;
+    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
+    text-align: left;
+}
+.card img{
+    width: 20vh;
+    height: 20vh;
+    object-fit: fill;
+    border-radius: 0.5rem;
+    border: 1px inset;
+}
+
+.home img{
+    margin-top: 6px;
+    max-width: 20vw;
+    border-radius: 6px;
+    border: 1px inset;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+.container {
+    position: relative;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+    clip-path: circle();
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 750px;
+    width: 500px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+  p {
+    color: grey;
+  }
+
+
+
+
+#results {
+    font-size: 20px;
+}
+
