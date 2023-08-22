@@ -10,5 +10,8 @@ If you look above at the navigation tab it also cahnges colors with the hover ! 
 Mounatin info , still working on how to display pictures properly and not mess up the card :(
 <img width="1440" alt="Screen Shot 2023-08-22 at 1 45 37 AM" src="https://github.com/Yenifercode/capstone2/assets/117963037/9cf20138-1e90-42f4-b1e3-c12c5fa3260d">
 
-
+This last page is where the magic of javascript comes to show ・₊✧⋆⭒˚｡⋆
 <img width="1440" alt="Screen Shot 2023-08-22 at 1 43 11 AM" src="https://github.com/Yenifercode/capstone2/assets/117963037/cf56ca8a-ffce-4bb1-994d-d01e914de1e5">
+
+Use the filter to choose your adventure! ˶ᵔ ᵕ ᵔ˶
+<img width="1440" alt="Screen Shot 2023-08-22 at 1 44 09 AM" src="https://github.com/Yenifercode/capstone2/assets/117963037/8228630d-dfaf-49c6-82fd-6115f01a04da">
